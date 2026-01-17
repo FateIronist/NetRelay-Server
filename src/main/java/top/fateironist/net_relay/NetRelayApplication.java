@@ -1,4 +1,4 @@
-package top.fateironist.NetRelay;
+package top.fateironist.net_relay;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

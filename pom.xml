@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>top.fateironist</groupId>
-	<artifactId>NetRelay</artifactId>
+	<artifactId>net-relay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>NetRelay</name>
+	<name>net-relay</name>
 	<description>A lite project for intranet penetration via relay</description>
 	<url/>
 	<licenses>
