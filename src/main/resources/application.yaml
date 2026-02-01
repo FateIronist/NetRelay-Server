@@ -1,3 +1,39 @@
 spring:
+  security:
+    user:
+      name: admin
+      password: admin
   application:
     name: net-relay
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
+        username: admin
+        password: admin
+        instance:
+          name: net-relay
+          service-base-url: http://localhost:8085
+
+server:
+  port: 8085
+
+net-relay:
+  server:
+      port: 9090
+
+logging:
+  level:
+    top.fateironist.net_relay: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
